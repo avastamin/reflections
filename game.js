@@ -724,7 +724,8 @@ Coin = function () {
               0, -5]);
 
   this.collidesWith = ["ship"];
-
+ this.color    = 'yellow';
+  this.solid    = false;
   this.newPosition = function () {
     this.x = Math.random() * Game.canvasWidth;
     this.y = Math.random() * Game.canvasHeight;
